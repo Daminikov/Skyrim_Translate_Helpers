@@ -2,31 +2,23 @@
 Скрипты Python для более удобного перевода нейросетями. 
 
 📁 Структура проекта
-│
-├── build_database.py                    # Скрипт 1: Извлечение базы из ESP-ESM Translator
-├── generate_prompts_to_AI_TXT.py        # Скрипт 2: Генерация промптов для .txt файлов
-├── generate_prompts_to_AI_XML.py        # Скрипт 3: Работа с .xml файлами из экспорта ESP-ESM Translator
-│
-├── base/                      # Папка с базами переводов
-│   ├── BDD_SkyrimSE_EN-RU.json    # Основная база Skyrim SE (Приоритет 3)
-│   ├── Custom_Pet9948.json        # База мода Custom Pet (Приоритет 2)
-│   ├── User_Base.json             # Ваш личный словарь (Приоритет 4 - ВЫСШИЙ)
-│   ├── Exceptions.json            # Слова-исключения (не попадают в промпт)
-│
-├── prompts/                   # Папка с результатами и шаблонами
-│   ├── templates/                 # Шаблоны промптов
-│   │   ├── skyrim.txt                # Шаблон для Skyrim
-│   │   ├── XML_skyrim.txt            # XML-шаблон (игнорируется в txt-скрипте)
-│   │   └── custom.txt                # Ваш кастомный шаблон
-│   ├── Completionist_PROMPT.txt      # Сгенерированный промпт
-│   └── ...
-│
-├── input/                     # Папка для вставки переводов (XML)
-│   ├── 
-│   └── 
-│
-├── translation_debug.log      # Лог работы скриптов
-└── *.txt, *.xml               # Ваши исходные файлы для перевода
+build_database.py                    # Скрипт 1: Извлечение базы из ESP-ESM Translator
+generate_prompts_to_AI_TXT.py        # Скрипт 2: Генерация промптов для .txt файлов
+generate_prompts_to_AI_XML.py        # Скрипт 3: Работа с .xml файлами из экспорта ESP-ESM Translator
+base/                         # Папка с базами переводов
+BDD_SkyrimSE_EN-RU.json       # Основная база Skyrim SE (Приоритет 3)
+Custom_Pet9948.json           # База мода Custom Pet (Приоритет 2)
+User_Base.json                # Ваш личный словарь (Приоритет 4 - ВЫСШИЙ)
+Exceptions.json               # Слова-исключения (не попадают в промпт)
+prompts/                      # Папка с результатами и шаблонами
+templates/                    # Шаблоны промптов
+skyrim.txt                    # Шаблон для Skyrim
+XML_skyrim.txt                # XML-шаблон (игнорируется в txt-скрипте)
+custom.txt                    # Ваш кастомный шаблон
+Completionist_PROMPT.txt      # Сгенерированный промпт
+input/                        # Папка для вставки переводов (XML)
+translation_debug.log         # Лог работы скриптов
+*.txt, *.xml                  # Ваши исходные файлы для перевода
 
 # Скрипт 1: build_database.py
 🎯 Назначение
