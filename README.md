@@ -19,3 +19,5 @@
 EET_DATABASE_PATH = r"S:\ESP-ESM Translator 4.35\BDD"  # Путь к базе EET
 BASE_FOLDER = Path('base')                             # Папка для JSON-файлов
 ALLOWED_GRUPS = [...]                                  # Разрешенные группы (GRUP)```.
+
+
