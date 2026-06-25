@@ -9,7 +9,7 @@
 EET_DATABASE_PATH = r"S:\ESP-ESM Translator 4.35\BDD"  # Путь к базе EET
 BASE_FOLDER = Path('base')  # Куда сохранять JSON
 
-# Разрешенные группы (GRUP). Берем то что будет в базе
+Разрешенные группы (GRUP). Берем то что будет в базе
 ALLOWED_GRUPS =
 
 ⚠️ Важно
